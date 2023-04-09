@@ -5,8 +5,8 @@ function Square(props) {
         style={{
           
           fontSize: "40px",
-          width: "140px",
-          height: "140px",
+          width: "100px",
+          height: "100px",
           verticalAlign: "top",
           outline: "none",
           borderColor:"black",

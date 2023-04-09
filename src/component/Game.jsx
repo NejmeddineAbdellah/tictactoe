@@ -2,7 +2,7 @@ import React from 'react';
 import calculateWinner from './calculateWinner';
 import Square from './Square';
 import isBoardFull from './isBoardFull';
-import ComputerPlayer from './ComputerPlayer2';
+import ComputerPlayer from './ComputerPlayer';
 
 class Game2 extends React.Component {
   constructor(props) {
@@ -116,6 +116,7 @@ class Game2 extends React.Component {
       <div style={{
         marginTop:"50px",
         textAlign:"center",
+        margin:'auto'
         
         }}>
         <div  style={{
